@@ -6,8 +6,7 @@ const fs = require("fs/promises");
 
 const { User } = require("../models/user");
 
-const { ctrlWrapper, HttpError } = require("../helpers");
-const { resize } = require("../middlewares");
+const { ctrlWrapper, HttpError, resize } = require("../helpers");
 
 const { SECRET_KEY } = process.env;
 
